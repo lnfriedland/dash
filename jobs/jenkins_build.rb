@@ -2,7 +2,7 @@ require 'net/http'
 require 'json'
 require 'time'
 
-JENKINS_URI = URI.parse("https://jenkins.sandbot.io/jenkins")
+JENKINS_URI = URI.parse("jenkins_url")
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
 JENKINS_AUTH = {
