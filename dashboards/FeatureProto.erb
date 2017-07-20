@@ -1,0 +1,43 @@
+<script type='text/javascript'>
+ $(function() {
+   Dashing.widget_base_dimensions = [420, 370]
+   Dashing.numColumns = 5
+ });
+ </script>
+ 
+<% content_for :title do %>Feature Tests Dashboard<% end %>
+<div class="gridster">
+  <ul>
+	 <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+		<div data-id="welcome" data-view="Text" data-title="Feature Dashboard" style="background-color:#3a3f45;"></div>
+    </li>
+	
+	<li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-AdminApp-Lightweight Tests" data-view="JenkinsBuild"  data-title="AdminApp-Lightweight Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-AdminApp-LightweightTestSuite-Feature/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Platform-SSO Tests" data-view="JenkinsBuild" data-title="Platform-SSO Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-SSOTestSuite-Feature/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Platform-Nightly Tests" data-view="JenkinsBuild" data-title="Platform-Nightly Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-NightlyTestSuite-Feature/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Reporting-Lightweight Tests" data-view="JenkinsBuild" data-title="Reporting-Lightweight Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Reporting-LightweightTestSuite-Feature/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="5" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Platform-Nightly Report Integration Tests" data-view="JenkinsBuild" data-title="Platform-Nightly Report Integration Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-NightlyPlatformReportSuite-Feature/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Platform-Cross Browser Tests" data-view="JenkinsBuild" data-title="Platform-Cross Browser Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-CrossBrowserTestSuite-Feature/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="4" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Platform-Lightweight Tests" data-view="JenkinsBuild" data-title="Platform-Lightweight Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-LightweightTestSuite-Feature/'" data-min="0" data-max="100"></div>
+    </li>
+   </ul>
+</div>

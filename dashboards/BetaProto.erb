@@ -1,0 +1,31 @@
+ <script type='text/javascript'>
+ $(function() {
+   Dashing.widget_base_dimensions = [420, 370]
+   Dashing.gridsterLayout('[[{"col":1,"row":1,"size_x":4,"size_y":1},{"col":1,"row":2,"size_x":2,"size_y":1},{"col":3,"row":2,"size_x":2,"size_y":1},{"col":1,"row":3,"size_x":2,"size_y":1},{"col":3,"row":3,"size_x":2,"size_y":1}]]')
+ });
+ </script>
+
+<% content_for :title do %>Beta Tests Dashboard<% end %>
+<div class="gridster">
+  <ul>
+	 <li data-row="1" data-col="1" data-sizex="4" data-sizey="1">
+		<div data-id="welcome" data-view="Text" data-title="Beta Dashboard" style="background-color:#3a3f45;"></div>
+    </li>
+	
+	<li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="Project Beta:Dev-RLF Modules-Functional Tests" data-view="JenkinsBuild"  data-title="Dev-RLF Modules-Functional Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-TrainingModules-RLF-Dev-FunctionalTests/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="2" data-col="3" data-sizex="2" data-sizey="1">
+      <div data-id="Project Beta:RC-RLF Modules-Functional Tests" data-view="JenkinsBuild" data-title="RC-RLF Modules-Functional Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-TrainingModules-RLF-RC-FunctionalTests/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="3" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="Project Beta:Dev-V2 Modules-Functional Tests" data-view="JenkinsBuild" data-title="Dev-V2 Modules-Functional Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-TrainingModules-V2-Dev-FunctionalTests/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="3" data-col="3" data-sizex="2" data-sizey="1">
+      <div data-id="Project Beta:RC-V2 Modules-Functional Tests" data-view="JenkinsBuild" data-title="RC-V2 Modules-Functional Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-TrainingModules-V2-RC-FunctionalTests/'" data-min="0" data-max="100"></div>
+    </li>
+   </ul>
+</div>

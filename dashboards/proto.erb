@@ -1,0 +1,100 @@
+<script type='text/javascript'>
+ $(function() {
+   Dashing.widget_base_dimensions = [370, 180]
+   Dashing.numColumns = 5
+ });
+ </script>
+ <script type='text/javascript'>
+ $(function() {
+   Dashing.gridsterLayout('[[{"col":1,"row":1,"size_x":1,"size_y":2},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":1,"size_y":1},{"col":3,"row":2,"size_x":1,"size_y":1},{"col":5,"row":1,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1},{"col":1,"row":3,"size_x":1,"size_y":2},{"col":2,"row":4,"size_x":1,"size_y":1},{"col":3,"row":4,"size_x":1,"size_y":1},{"col":3,"row":3,"size_x":1,"size_y":1},{"col":2,"row":3,"size_x":1,"size_y":1},{"col":4,"row":3,"size_x":1,"size_y":1}]]')
+ });
+ </script>
+ 
+ 
+<% content_for :title do %>Proto Dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+		<div data-id="welcome" data-view="Text" data-title="Sandbox" style="background-color:#3a3f45;"></div>
+    </li>
+	
+	<li data-row="1" data-col="4" data-sizex="2" data-sizey="1">
+      <div data-id="Sandbox-AdminApp-Lightweight Tests" data-view="JenkinsBuild" data-title="AdminApp-Lightweight" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-AdminApp-LightweightTestSuite-Development/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Sandbox-Platform-Lightweight Tests" data-view="JenkinsBuild" data-title="Platform-Lightweight" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-LightweightTestSuite-Development/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="Sandbox-Platform-Nightly Tests" data-view="JenkinsBuild" data-title="Platform-Nightly" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-NightlyTestSuite-Development/'" data-min="0" data-max="100"></div>
+    </li>
+  </ul>
+</div>
+
+<% content_for :title do %>Proto Dashboard<% end %>
+<div class="gridster">
+  <ul>
+	 <li data-row="2" data-col="1" data-sizex="1" data-sizey="2">
+		<div data-id="welcome" data-view="Text" data-title="Feature" style="background-color:#3a3f45;"></div>
+    </li>
+	
+	<li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-AdminApp-Lightweight Tests" data-view="JenkinsBuild"  data-title="AdminApp-Lightweight" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-AdminApp-LightweightTestSuite-Feature/'" ></div>
+    </li>
+	
+	<li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Platform-SSO Tests" data-view="JenkinsBuild" data-title="Platform-SSO" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-SSOTestSuite-Feature/'"></div>
+    </li>
+	
+	<li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Platform-Nightly Tests" data-view="JenkinsBuild" data-title="Platform-Nightly" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-NightlyTestSuite-Feature/'"></div>
+    </li>
+	
+	<li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Reporting-Lightweight Tests" data-view="JenkinsBuild" data-title="Reporting-Lightweight" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Reporting-LightweightTestSuite-Feature/'"></div>
+    </li>
+	
+	<li data-row="2" data-col="5" data-sizex="1" data-sizey="2">
+      <div data-id="Feature-Platform-Nightly Report Integration Tests" data-view="JenkinsBuild" data-title="Platform-Nightly Report Integration" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-NightlyPlatformReportSuite-Feature/'"></div>
+    </li>
+	
+	<li data-row="3" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Platform-Cross Browser Tests" data-view="JenkinsBuild" data-title="Platform-Cross Browser" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-CrossBrowserTestSuite-Feature/'"></div>
+    </li>
+	
+	<li data-row="3" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="Feature-Platform-Lightweight Tests" data-view="JenkinsBuild" data-title="Platform-Lightweight" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-LightweightTestSuite-Feature/'"></div>
+    </li>
+   </ul>
+</div>
+
+<% content_for :title do %>Proto Dashboard<% end %>
+<div class="gridster">
+  <ul>
+	<li data-row="4" data-col="1" data-sizex="1" data-sizey="2">
+		<div data-id="welcome" data-view="Text" data-title="Staging" style="background-color:#3a3f45;"></div>
+    </li>
+	
+	<li data-row="4" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Staging-Platform-Deployment Tests" data-view="JenkinsBuild"  data-title="Platform-Deployment" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-DeploymentTestSuite-Staging/'"></div>
+    </li>
+	
+	<li data-row="4" data-col="3" data-sizex="1" data-sizey="2">
+      <div data-id="Staging-Platform-Deployment Smoke Tests" data-view="JenkinsBuild" data-title="Platform-Deployment Smoke" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-DeploymentSmokeTestSuite-Staging/'"></div>
+    </li>
+	
+	<li data-row="4" data-col="4" data-sizex="1" data-sizey="2">
+      <div data-id="Staging-Platform-SSO Tests" data-view="JenkinsBuild" data-title="Platform-SSO" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-SSOTestSuite-Staging/'"></div>
+    </li>
+	
+	<li data-row="5" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Staging-Reporting-Deployment Tests" data-view="JenkinsBuild" data-title="Reporting-Deployment" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Reporting-DeploymentTestSuite-Staging/'"></div>
+    </li>
+	
+	<li data-row="4" data-col="5" data-sizex="1" data-sizey="2">
+      <div data-id="PhishAlarm-Deployment Tests" data-view="JenkinsBuild" data-title="PhishAlarm-Deployment" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Alarm-Tests-Integration-DeploymentTestSuite-Staging/'"></div>
+    </li>
+ </ul>
+</div>
+

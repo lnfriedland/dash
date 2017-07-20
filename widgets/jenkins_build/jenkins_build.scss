@@ -1,0 +1,63 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #4b5f24;
+
+$title-color:       rgba(255, 255, 255, 1);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+//$meter-background:  rgba(20, 20, 20, 1);
+
+// ----------------------------------------------------------------------------
+// Widget-jenkins-build styles
+// ----------------------------------------------------------------------------
+
+.widget-jenkins-build {
+  background-color: $background-color;
+  
+  color: #e65c00; for orange
+  
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 1); 
+	text-align: right;
+	font-size: 16px;
+	bottom: -3px;
+  }
+  
+  .failed-builds {
+    //color: #e6e600;
+	color: #f1f2f3;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 16px;
+	font-weight: 600;
+  }
+  
+  .percent-built {
+    color: #f1f2f3;
+	font-size: 24px;
+  }
+  
+   .title {
+    font-size: 42px;
+    font-weight: 600;
+    color: #f1f2f3;
+	
+  } 
+  
+  h2 {
+	font-size: 42px;
+	font-weight: 600;
+  }
+  
+  .suite-title {
+    font-size: 12px;
+	text-align: left;
+	margin-bottom: 1px;
+	color: rgba(0, 0, 0, 1);
+  }
+}

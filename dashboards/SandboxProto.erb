@@ -1,0 +1,27 @@
+<script type='text/javascript'>
+ $(function() {
+   Dashing.widget_base_dimensions = [420, 370]
+   Dashing.cycleGridsterLayout('[[{"col":1,"row":1,"size_x":4,"size_y":1},{"col":1,"row":2,"size_x":2,"size_y":1},{"col":1,"row":3,"size_x":4,"size_y":1},{"col":3,"row":2,"size_x":2,"size_y":1}]]')
+ });
+ </script>
+
+<% content_for :title do %>Sandbox Tests Dashboard<% end %>
+<div class="gridster">
+  <ul>
+	 <li data-row="1" data-col="1" data-sizex="4" data-sizey="1">
+		<div data-id="welcome" data-view="Text" data-title="Sandbox Dashboard" style="background-color:#3a3f45;"></div>
+    </li>
+	
+	<li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="Sandbox-AdminApp-Lightweight Tests" data-view="JenkinsBuild"  data-title="AdminApp-Lightweight Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-AdminApp-LightweightTestSuite-Development/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="2" data-col="1" data-sizex="4" data-sizey="1">
+      <div data-id="Sandbox-Platform-Lightweight Tests" data-view="JenkinsBuild" data-title="Platform-Lightweight Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-LightweightTestSuite-Development/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="1" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="Sandbox-Platform-Nightly Tests" data-view="JenkinsBuild" data-title="Platform-Nightly Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-NightlyTestSuite-Development/'" data-min="0" data-max="100"></div>
+    </li>
+   </ul>
+</div>

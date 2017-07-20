@@ -1,0 +1,35 @@
+<script type='text/javascript'>
+ $(function() {
+   Dashing.cycleGridsterLayout('[[{"col":1,"row":1,"size_x":4,"size_y":1},{"col":1,"row":2,"size_x":2,"size_y":1},{"col":1,"row":4,"size_x":4,"size_y":1},{"col":3,"row":3,"size_x":2,"size_y":1},{"col":3,"row":2,"size_x":2,"size_y":1},{"col":1,"row":3,"size_x":2,"size_y":1}]]')
+   Dashing.widget_base_dimensions = [420, 370]
+ });
+ </script>
+ 
+<% content_for :title do %>Staging Tests Dashboard<% end %>
+<div class="gridster">
+  <ul>
+	 <li data-row="1" data-col="2" data-sizex="1" data-sizey="2">
+		<div data-id="welcome" data-view="Text" data-title="Staging Dashboard" style="background-color:#3a3f45;"></div>
+    </li>
+	
+	<li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="Staging-Platform-Deployment Tests" data-view="JenkinsBuild"  data-title="Platform-Deployment Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-DeploymentTestSuite-Staging/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="Staging-Platform-Deployment Smoke Tests" data-view="JenkinsBuild" data-title="Platform-Deployment Smoke Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-DeploymentSmokeTestSuite-Staging/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Staging-Platform-SSO Tests" data-view="JenkinsBuild" data-title="Platform-SSO Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Platform-SSOTestSuite-Staging/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="Staging-Reporting-Deployment Tests" data-view="JenkinsBuild" data-title="Reporting-Deployment Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Automation-Reporting-DeploymentTestSuite-Staging/'" data-min="0" data-max="100"></div>
+    </li>
+	
+	<li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="PhishAlarm-Deployment Tests" data-view="JenkinsBuild" data-title="PhishAlarm-Deployment Tests" onclick="location.href='https://jenkins.sandbot.io/jenkins/view/Automation%20Dashboard/job/Alarm-Tests-Integration-DeploymentTestSuite-Staging/'" data-min="0" data-max="100"></div>
+    </li>
+   </ul>
+</div>

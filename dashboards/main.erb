@@ -1,0 +1,35 @@
+ <script type='text/javascript'>
+ $(function() {
+   Dashing.gridsterLayout('[{"col":4,"row":1,"size_x":1,"size_y":1},{"col":1,"row":1,"size_x":1,"size_y":3},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":2,"size_y":2},{"col":4,"row":2,"size_x":1,"size_y":2}]')
+   Dashing.widget_base_dimensions = [420, 370]
+   });
+ </script>
+ 
+ <% content_for :title do %>Main Dashboard<% end %>
+ <div class="gridster">
+  <ul>
+	 <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+		<div data-view="TwelveHourClock"></div>
+	 </li>
+	 
+	<li data-row="1" data-col="1" data-sizex="1" data-sizey="3">
+      <div data-id="welcome" data-view="Text" data-title="Jenkins Overall Build Status"></div>
+    </li>
+	
+	<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="synergy" data-view="Meter" data-title="Sprint Progress"></div>
+    </li>
+	
+	<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="synergy" data-view="Meter" data-title="Jenkins Passing Rate"></div>
+    </li>
+	
+	 <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+		<div data-id="welcome" data-view="Text" data-title="JIRA Issues" style="background-color:#30BFB1;"></div>
+    </li>
+	
+	<li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+		<div data-id="klimato" data-view="Klimato"></div>
+	</li
+  </ul>
+</div>
