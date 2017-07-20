@@ -6,8 +6,8 @@ JENKINS_URI = URI.parse("https://jenkins.sandbot.io/jenkins")
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
 JENKINS_AUTH = {
-  'name' => 'lfriedland',
-  'password' => 'abee83ccd8d91676e6bddeb8ce9fe02c'
+  'name' => nil,
+  'password' => nil
 }
 
 # the key of this mapping must be a unique identifier for your job, the according value must be the name that is specified in jenkins
