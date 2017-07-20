@@ -1,0 +1,79 @@
+---
+buzzwords: |+
+  data: {"items":[{"label":"Paradigm shift","value":9},{"label":"Exit strategy","value":6},{"label":"Enterprise","value":6},{"label":"Pivoting","value":3},{"label":"Leverage","value":6},{"label":"Turn-key","value":8},{"label":"Web 2.0","value":5},{"label":"Streamlininess","value":3},{"label":"Synergy","value":2}],"id":"buzzwords","updatedAt":1500560677}
+
+convergence: |+
+  data: {"points":[{"x":49,"y":36},{"x":50,"y":2},{"x":51,"y":19},{"x":52,"y":29},{"x":53,"y":19},{"x":54,"y":16},{"x":55,"y":3},{"x":56,"y":41},{"x":57,"y":10},{"x":58,"y":5}],"id":"convergence","updatedAt":1500560677}
+
+valuation: |+
+  data: {"current":46,"last":37,"id":"valuation","updatedAt":1500560677}
+
+karma: |+
+  data: {"current":195990,"last":44368,"id":"karma","updatedAt":1500560677}
+
+synergy: |+
+  data: {"value":75,"id":"synergy","updatedAt":1500560677}
+
+Feature-Reporting-Lightweight Tests: |+
+  data: {"suiteTitle":"Feature - Reporting - Lightweight Tests #165","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/20 at 06:00AM","fails":"6 tests failed. 13 tests skipped.","value":null,"id":"Feature-Reporting-Lightweight Tests","updatedAt":1500560674}
+
+Feature-AdminApp-Lightweight Tests: |+
+  data: {"suiteTitle":"Feature - AdminApp - Lightweight Tests #279","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/20 at 06:04AM","fails":"6 tests failed. 2 tests skipped.","value":null,"id":"Feature-AdminApp-Lightweight Tests","updatedAt":1500560673}
+
+Sandbox-Platform-Nightly Tests: |+
+  data: {"suiteTitle":"Sandbox - Platform - Nightly Tests #300","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/20 at 01:00AM","fails":"54 tests failed. 57 tests skipped.","value":null,"id":"Sandbox-Platform-Nightly Tests","updatedAt":1500560673}
+
+Feature-Platform-SSO Tests: |+
+  data: {"suiteTitle":"Feature - Platform - SSO Tests #84","currentResult":"SUCCESS","lastResult":"SUCCESS","timestamp":"Last built 07/20 at 05:44AM","fails":null,"value":null,"id":"Feature-Platform-SSO Tests","updatedAt":1500560672}
+
+Feature-Platform-Cross Browser Tests: |+
+  data: {"suiteTitle":"Feature - Platform - Cross Browser Tests #134","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/20 at 05:26AM","fails":"5 tests failed.","value":null,"id":"Feature-Platform-Cross Browser Tests","updatedAt":1500560673}
+
+Feature-Platform-Nightly Tests: |+
+  data: {"suiteTitle":"Feature - Platform - Nightly Tests #277","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/20 at 08:30AM","fails":"85 tests failed. 52 tests skipped.","value":null,"id":"Feature-Platform-Nightly Tests","updatedAt":1500560674}
+
+Staging-Reporting-Deployment Tests: |+
+  data: {"suiteTitle":"Staging - Reporting - Deployment Tests #142","currentResult":"SUCCESS","lastResult":"SUCCESS","timestamp":"Last built 06/30 at 09:23AM","fails":null,"value":null,"id":"Staging-Reporting-Deployment Tests","updatedAt":1500560672}
+
+Staging-Platform-Deployment Smoke Tests: |+
+  data: {"suiteTitle":"Staging - Platform - Deployment Smoke Tests #351","currentResult":"ABORTED","lastResult":"ABORTED","timestamp":"Last built 07/13 at 09:33AM","fails":null,"value":"Execution aborted","id":"Staging-Platform-Deployment Smoke Tests","updatedAt":1500560672}
+
+Sandbox-Platform-Lightweight Tests: |+
+  data: {"suiteTitle":"Sandbox - Platform - Lightweight Tests #708","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/20 at 09:11AM","fails":"8 tests failed. 1 tests skipped.","value":null,"id":"Sandbox-Platform-Lightweight Tests","updatedAt":1500560673}
+
+Staging-Platform-Deployment Tests: |+
+  data: {"suiteTitle":"Staging - Platform - Deployment Tests #227","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/07 at 01:00PM","fails":"3 tests failed. 1 tests skipped.","value":null,"id":"Staging-Platform-Deployment Tests","updatedAt":1500560673}
+
+Feature-Platform-Lightweight Tests: |+
+  data: {"suiteTitle":"Feature - Platform - Lightweight Tests #317","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/20 at 08:24AM","fails":"13 tests failed. 27 tests skipped.","value":null,"id":"Feature-Platform-Lightweight Tests","updatedAt":1500560674}
+
+Feature-Platform-Nightly Report Integration Tests: |+
+  data: {"suiteTitle":"Feature - Platform - Nightly Report Integration Tests #41","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/20 at 08:41AM","fails":"166 tests failed. 333 tests skipped.","value":null,"id":"Feature-Platform-Nightly Report Integration Tests","updatedAt":1500560673}
+
+Sandbox-AdminApp-Lightweight Tests: |+
+  data: {"suiteTitle":"Sandbox - AdminApp - Lightweight Tests #317","currentResult":"FAILURE","lastResult":"FAILURE","timestamp":"Last built 07/20 at 08:03AM","fails":"4 tests failed. 1 tests skipped.","value":null,"id":"Sandbox-AdminApp-Lightweight Tests","updatedAt":1500560673}
+
+PhishAlarm-Deployment Tests: |+
+  data: {"suiteTitle":"Staging - PhishAlarm - Deployment Tests #91","currentResult":"SUCCESS","lastResult":"SUCCESS","timestamp":"Last built 07/07 at 02:46PM","fails":null,"value":null,"id":"PhishAlarm-Deployment Tests","updatedAt":1500560672}
+
+Staging-Platform-SSO Tests: |+
+  data: {"suiteTitle":"Staging - Platform - SSO Tests #22","currentResult":"SUCCESS","lastResult":"SUCCESS","timestamp":"Last built 07/13 at 09:44AM","fails":null,"value":null,"id":"Staging-Platform-SSO Tests","updatedAt":1500560672}
+
+github_feed: |+
+  data: {"items":[{"commit_sha":"07f8a743d08df3edbc233ba77386a1abe72ae370","message":"Improvements","author":"adamjson","url":"https://api.github.com/repos/wombatsecurity/automationModuleTests/commits/07f8a743d08df3edbc233ba77386a1abe72ae370","branch":"AUTO-3171","avatar_url":"https://avatars.githubusercontent.com/u/15613655?","ago":"1 minutes ago","title":"adamjson pushed AUTO-3171 at wombatsecurity/automationModuleTests"},{"commit_sha":"ff90b48f839ebc19c39b78eaded48dddd9c897c6","message":"AUTO-3325: Changed the class cast in AdminCreateUserDialog.addUser from\nAdminEditCompanyPage back to AdminPartialEditTrialPage.","author":"kuher","url":"https://api.github.com/repos/wombatsecurity/automation-admin-app/commits/ff90b48f839ebc19c39b78eaded48dddd9c897c6","branch":"master","avatar_url":"https://avatars.githubusercontent.com/u/29433821?","ago":"6 minutes ago","title":"kuher pushed master at wombatsecurity/automation-admin-app"},{"commit_sha":"0c969f8a157a500263f7b9ceb91a9795f360d375","message":"Removed sample files and replaced them with ember-component-showcase addon, WIP converting to using that instead","author":"lmanning","url":"https://api.github.com/repos/wombatsecurity/wombat-style-guide/commits/0c969f8a157a500263f7b9ceb91a9795f360d375","branch":"alerts-errors","avatar_url":"https://avatars.githubusercontent.com/u/999048?","ago":"13 minutes ago","title":"lmanning pushed alerts-errors at wombatsecurity/wombat-style-guide"},{"commit_sha":"7c688a0ed2856949726416b90adfe331daf2c46c","message":"use webelement in waituntilrefreshed","author":"mdfaller","url":"https://api.github.com/repos/wombatsecurity/automationPlatformTests/commits/7c688a0ed2856949726416b90adfe331daf2c46c","branch":"ember-dev","avatar_url":"https://avatars.githubusercontent.com/u/6668303?","ago":"18 minutes ago","title":"mdfaller pushed ember-dev at wombatsecurity/automationPlatformTests"},{"commit_sha":"8d46d70f472d3997bd1e18d8c7a0f1ca818fd54c","message":"FindBugs fixes, lowest possible settings.","author":"dsheldonhess","url":"https://api.github.com/repos/wombatsecurity/wombatModel/commits/8d46d70f472d3997bd1e18d8c7a0f1ca818fd54c","branch":"development","avatar_url":"https://avatars.githubusercontent.com/u/15638913?","ago":"20 minutes ago","title":"dsheldonhess pushed development at wombatsecurity/wombatModel"}],"id":"github_feed","updatedAt":1500560671}
+
+Project Beta:Dev-RLF Modules-Functional Tests: |+
+  data: {"suiteTitle":"Beta:Dev - RLF Modules - Functional Tests #505","currentResult":"SUCCESS","lastResult":"SUCCESS","timestamp":"Last built 07/20 at 12:31AM","fails":null,"value":null,"id":"Project Beta:Dev-RLF Modules-Functional Tests","updatedAt":1500560672}
+
+klimato: |+
+  data: {"location":"Pittsburgh","temperature":"78","code":"28","format":"f","id":"klimato","updatedAt":1500560586}
+
+Project Beta:RC-V2 Modules-Functional Tests: |+
+  data: {"suiteTitle":"Beta:RC - V2 Modules - Functional Tests #31","currentResult":"SUCCESS","lastResult":"SUCCESS","timestamp":"Last built 07/12 at 02:22PM","fails":null,"value":null,"id":"Project Beta:RC-V2 Modules-Functional Tests","updatedAt":1500560672}
+
+Project Beta:Dev-V2 Modules-Functional Tests: |+
+  data: {"suiteTitle":"Beta:Dev - V2 Modules - Functional Tests #363","currentResult":"SUCCESS","lastResult":"SUCCESS","timestamp":"Last built 07/20 at 05:01AM","fails":null,"value":null,"id":"Project Beta:Dev-V2 Modules-Functional Tests","updatedAt":1500560672}
+
+Project Beta:RC-RLF Modules-Functional Tests: |+
+  data: {"suiteTitle":"Beta:RC - RLF Modules - Functional Tests #34","currentResult":"SUCCESS","lastResult":"SUCCESS","timestamp":"Last built 06/21 at 10:11AM","fails":null,"value":null,"id":"Project Beta:RC-RLF Modules-Functional Tests","updatedAt":1500560672}
+
